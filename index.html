@@ -17,12 +17,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body onload="loder()">
-  <!-- Navbar -->
+<body>
+  <!-- Navbar d-->
+  
   <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
     <!-- Container wrapper -->
     <div class="container">
-      <!-- Navbar brand -->
+  
 
 
       <!-- Toggle button -->
@@ -38,9 +39,18 @@
           <li class="nav-item">
             <a class="h3 text-black" href="#">Education</a>
           </li>
+          <div class="nav_media">
+            <li>home</li>
+            <li>Courses</li>
+            <li>Page</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </div>
+         
         </ul>
+       
         <!-- Left links -->
-        <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
           <!-- Left links -->
           <ul class="navbar-nav mb-2 mb-lg-0 gap-4">
             <li class="nav-item dropdown">
@@ -863,22 +873,8 @@
 
   </footer>
 
-  <div class="wrappe d-none">
-    <div class="circle"></div>
-    <div class="circle"></div>
-    <div class="circle"></div>
-    <div class="shadow"></div>
-    <div class="shadow"></div>
-    <div class="shadow"></div>
-</div>
 <script>
-const dot_spinner = document.querySelector('.wrappe')
-  let loder = ()=>{
-   
-      dot_spinner.style.cssText = 'display:block;'
 
-    
-  }
 
     let prevButton = document.querySelector('#prev');
 		let nextButton = document.querySelector('#next');
